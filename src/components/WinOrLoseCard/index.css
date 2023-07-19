@@ -1,0 +1,107 @@
+/* Write your code here. */
+
+.card-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  width: 420px;
+  height: 320px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 200px;
+}
+
+.card-text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-head {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+}
+.card-score-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.card-score {
+  font-family: 'Roboto';
+  color: #6a59ff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.card-btn {
+  background-color: #ffce27;
+  border-width: 0px;
+  font-family: 'Roboto';
+  color: #3d3d3d;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  width: 95px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-cont {
+    width: 55vw;
+    height: 45vh;
+    padding: 10px;
+  }
+  .card-img {
+    width: 120px;
+  }
+  .card-head {
+    font-size: 18px;
+  }
+  .card-score-text {
+    font-size: 14px;
+  }
+  .card-score {
+    font-size: 17px;
+  }
+  .card-btn {
+    font-size: 10px;
+    width: 80px;
+    height: 20px;
+    border-radius: 9px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .card-cont {
+    width: 50vw;
+    height: 35vh;
+    padding: 15px;
+  }
+  .card-img {
+    width: 130px;
+  }
+  .card-head {
+    font-size: 20px;
+  }
+  .card-score-text {
+    font-size: 14px;
+  }
+  .card-score {
+    font-size: 17px;
+  }
+  .card-btn {
+    font-size: 10px;
+    width: 80px;
+    height: 20px;
+    border-radius: 9px;
+  }
+}

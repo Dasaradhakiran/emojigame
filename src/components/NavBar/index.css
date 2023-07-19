@@ -1,0 +1,65 @@
+/* Write your code here. */
+
+.nav-elem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  padding: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  width: 35px;
+}
+.logo-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.score-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 164px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-elem {
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .logo-img {
+    width: 13px;
+  }
+  .logo-text {
+    font-size: 10px;
+  }
+  .score-cont {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .nav-elem {
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .logo-img {
+    width: 18px;
+  }
+  .logo-text {
+    font-size: 13px;
+  }
+  .score-cont {
+    width: 150px;
+  }
+}
